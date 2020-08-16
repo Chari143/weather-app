@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+{{!-- it shows this icon on chrome tab --}}
+<link rel="icon" href="/img/weather.png">
+<link rel="stylesheet" href="/css/style.css">
+<body>
+    <div class="main">
+    {{!-- the below command is by using partials & header is the file name it prints the data in patials/header.hbs --}}
+    {{>header}}
+    {{!-- <h1>Dynamic page using handlers </h1> --}}
+
+    {{!-- takind input from nodejs means js file u need to use 2 {{}} --}}
+    {{!-- <h1>{{title}}</h1> --}}
+    <p>Use website to get weather data</p>
+
+    <form action="">
+        <input type="text" name="" id="" placeholder="address here">
+        <button type="submit" >Search</button>
+    </form>
+    <p id="par1">
+
+    </p>
+
+    <p id="par2">
+
+    </p>
+    </div>
+    
+    {{!-- <p>created by {{name}}</p> --}}
+    {{!-- OR  using partials --}}
+    {{>footer}}
+</body>
+<script src="/js/app.js"></script>
+</html>

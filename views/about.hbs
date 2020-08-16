@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+{{!-- it shows this icon on chrome tab --}}
+<link rel="icon" href="/img/weather.png">
+<link rel="stylesheet" href="/css/style.css">
+
+<body>
+    <div class="main">
+    {{!-- the below command is by using partials & header is the file name it prints the data in patials/header.hbs --}}
+    {{>header}}
+    {{!-- <h1>{{title}}</h1> --}}
+    <!-- u can use style only width or height it automatically adjust another one -->
+    <img class ='image' style="height: 20em;" src="/img/IMG20200115112312.jpg" alt=""> 
+    </div>
+    
+    {{!-- <p> Created by {{name}}</p> --}}
+    {{!-- OR  using partials --}}
+    {{>footer}}
+</body>
+</html>
