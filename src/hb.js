@@ -44,8 +44,8 @@ const path = require('path') //used to work with paths no need to install
 const { readdirSync } = require('fs')
 
 
-// console.log(path.join(__dirname,'..')) // .. for going up a folder 
-// console.log(path.join(__dirname,'../..')) // .. for going up 2 folders
+// console.log(path.join(__dirname,'..')) // .. for going down a folder 
+// console.log(path.join(__dirname,'../..')) // .. for going down 2 folders
 // console.log(path.join(__dirname,'../public'))
 
 
